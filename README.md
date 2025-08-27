@@ -26,7 +26,7 @@ HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heteroge
     - **Graph Databases**: Neo4j
     - **Relational Databases**: MySQL
 
-- **DeepRetrieval**: Supports multiple advanced retrieval paradigms, including **Hybrid Retrieval** (combining vector search and keyword search), **Query Rewrite** ,**Rerank** , and **DeepSearch** modules.
+- **DeepRetrieval**: Supports multiple retrieval paradigms, including **Hybrid Retrieval** (combining vector search and keyword search), **Query Rewrite** ,**Rerank** , and **DeepSearch** modules.
 
 - **DeepWriter**: A multimodal report generation module. Generate fact-grounded, query-driven reports, with fine-grained citations, from unstructured documents.
 
