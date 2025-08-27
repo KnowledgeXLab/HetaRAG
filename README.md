@@ -8,7 +8,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/KnowledgeXLab/HetaRAG?style=flat-square)](https://github.com/KnowledgeXLab/HetaRAG/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/KnowledgeXLab/HetaRAG/pulls)
 
-HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heterogeneous data stores—vector indices, knowledge graphs, full-text search engines, and relational databases. 
+HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heterogeneous data stores—vector indices, knowledge graphs, full-text search engines, and relational databases. The knowledge base built on this heterogeneous database enables deep-search question answering within RAG and supports the generation of in-depth research reports. The code currently open-sourced comprises early-stage integrations of exploratory RAG components from our preliminary research; we will continue refining the system design and releasing further code in the future. 
 
 ## 🌟 Highlights
 - **`2025-08-30`** Codes are now release!
