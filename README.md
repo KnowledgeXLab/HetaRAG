@@ -1,6 +1,6 @@
 # HetaRAG: Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores
 
-[![Custom badge](https://img.shields.io/badge/Paper-Arxiv-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2402.03830)
+[![Custom badge](https://img.shields.io/badge/Paper-Arxiv-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Read the Docs](https://img.shields.io/readthedocs/heta)](https://hetarag.readthedocs.io/en/latest/)
