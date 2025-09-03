@@ -1,0 +1,63 @@
+{
+    "Did Liberty Broadband Corporation announce a share buyback plan in the annual report? If there is no mention, return False.": {
+      "kind": "boolean",
+      "answers": [
+        "True"
+      ],
+      "reference_pools": [
+        [
+          "446545ae548543d8744f8d885ff75face3424ba4:6",
+          "446545ae548543d8744f8d885ff75face3424ba4:88",
+          "446545ae548543d8744f8d885ff75face3424ba4:89",
+          "446545ae548543d8744f8d885ff75face3424ba4:149"
+        ]
+      ]
+    },
+    "For Incyte Corporation, what was the value of Clinical trial sites operating at year-end at the end of the period listed in annual report? If data is not available, return 'N/A'.": {
+        "kind": "number",
+        "answers": [
+          "N/A"
+        ],
+        "reference_pools": []
+    },
+    "Which leadership positions changed at Datalogic in the reporting period? If data is not available, return 'N/A'. Give me the title of the position.": {
+        "kind": "names",
+        "answers": [
+          "Director"
+        ],
+        "reference_pools": [
+          [
+            "980742aa08ea64d552c153bcefbd7e8243fb9efd:67"
+          ]
+        ]
+    },
+    "Which of the companies had the lowest total assets in EUR at the end of the period listed in annual report: \"Incyte Corporation\", \"INMUNE BIO INC.\", \"Datalogic\"? If data for the company is not available, exclude it from the comparison. If only one company is left, return this company.": {
+        "kind": "name",
+        "answers": [
+          "Datalogic"
+        ],
+        "reference_pools": [
+          [
+            "4d3e52b69b4b5366e54ce87cf641b01b1419bdee:84"
+          ],
+          [
+            "553afbf09b6d83166b17acb02431c6cf38e4defc:48"
+          ],
+          [
+            "980742aa08ea64d552c153bcefbd7e8243fb9efd:72"
+          ]
+        ]
+      },
+    "According to the annual report, what is the Cash flow from operations (in USD) for Sonic Automotive, Inc.  (within the last period or at the end of the last period)? If data is not available, return 'N/A'.": {
+      "kind": "number",
+      "answers": [
+        "406100000.0"
+      ],
+      "reference_pools": [
+        [
+          "682de8e45fd9688f3452bc0e18257132a8f3cff6:70",
+          "682de8e45fd9688f3452bc0e18257132a8f3cff6:91"
+        ]
+      ]
+    }
+}

@@ -92,7 +92,7 @@ We utilized the following repos during development:
 - [WebAgent](https://github.com/Alibaba-NLP/WebAgent)
 - [RAG-Challenge-2](https://github.com/IlyaRice/RAG-Challenge-2)
 - [enterprise-rag-challenge](https://github.com/trustbit/enterprise-rag-challenge)
-
+- [LeanRAG](https://github.com/RaZzzyz/LeanRAG)
 
 ## Citation
 If you find our paper and codes useful, please kindly cite us via:

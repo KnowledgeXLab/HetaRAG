@@ -1,0 +1,46 @@
+## LLM参数
+llm_conf:
+
+  llm_framework: "vllm"
+
+  ## LLM url
+  llm_host: "127.0.0.1"
+  llm_ports: [8001, 8001, 8002, 8002] # 部署模型的端口
+
+
+  ## LLM key
+  llm_api_key: "EMPTY"
+
+  ## LLM模型
+  llm_model: "qwen3_32b" 
+
+  ## 在线调用LLM最大尝试次数
+  max_error: 3
+
+
+## 任务参数
+task_conf:
+  ## 生成图谱的层数
+  level_num: 2
+
+  ## 头实体匹配多进程数量（-1表示使用所有CPU核心）
+  num_processes_match: -1
+
+  ## 推理多进程数量（-1表示使用所有CPU核心）
+  num_processes_infer: 16
+
+  ## 头实体路径
+  pedia_entity_path:  src/resources/temp/knowledge_graph/commonkg/dbpedia_entities_clean_valid.txt
+
+
+  ## 参考的开源三元组文件路径
+  ref_kg_path: src/resources/temp/knowledge_graph/commonkg/triple_ref_test.txt
+
+
+
+
+# Model Parameters
+model_params:
+  openai_embedding_dim: 1536
+  glm_embedding_dim: 1024
+  max_token_size: 8192
