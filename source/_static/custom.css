@@ -1,0 +1,209 @@
+/* Custom CSS for HRAG Documentation */
+
+/* Custom styling for the HRAG project */
+
+/* Header styling */
+.wy-side-nav-search {
+    background-color: #2980B9;
+}
+
+.wy-side-nav-search>div.version {
+    color: #ffffff;
+}
+
+/* Code block styling */
+.highlight {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* API documentation styling */
+.py.class,
+.py.function,
+.py.method {
+    border-left: 4px solid #2980B9;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+/* Parameter tables */
+.field-list {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.field-list th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.field-list td {
+    padding: 0.5rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Warning and note boxes */
+.admonition {
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.admonition.warning {
+    border-left: 4px solid #ffc107;
+    background-color: #fff3cd;
+}
+
+.admonition.note {
+    border-left: 4px solid #17a2b8;
+    background-color: #d1ecf1;
+}
+
+.admonition.tip {
+    border-left: 4px solid #28a745;
+    background-color: #d4edda;
+}
+
+/* Navigation improvements */
+.wy-nav-side {
+    background-color: #343a40;
+}
+
+.wy-menu-vertical li.current>a {
+    background-color: #2980B9;
+    color: white;
+}
+
+.wy-menu-vertical li.current>a:hover {
+    background-color: #1f5f8b;
+}
+
+/* Content area improvements */
+.wy-nav-content {
+    max-width: 1200px;
+}
+
+/* Code copy button styling */
+.copybutton {
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.copybutton:hover {
+    background-color: #1f5f8b;
+}
+
+/* Table styling */
+.wy-table-responsive table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.wy-table-responsive th,
+.wy-table-responsive td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.wy-table-responsive th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+    .wy-nav-content {
+        padding: 1rem;
+    }
+
+    .wy-table-responsive {
+        overflow-x: auto;
+    }
+}
+
+/* Custom styling for HRAG-specific elements */
+.hrag-component {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.hrag-component h3 {
+    color: #2980B9;
+    margin-top: 0;
+}
+
+/* Performance metrics styling */
+.performance-metrics {
+    background-color: #e8f5e8;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.performance-metrics h4 {
+    color: #155724;
+    margin-top: 0;
+}
+
+/* Architecture diagram styling */
+.architecture-diagram {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.architecture-diagram img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* Quick start guide styling */
+.quick-start {
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.quick-start h3 {
+    color: #856404;
+    margin-top: 0;
+}
+
+/* API endpoint styling */
+.api-endpoint {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.api-endpoint .method {
+    font-weight: bold;
+    color: #2980B9;
+}
+
+.api-endpoint .url {
+    font-family: monospace;
+    background-color: #e9ecef;
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+}
