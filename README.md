@@ -11,9 +11,10 @@
 HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heterogeneous data stores—vector indices, knowledge graphs, full-text search engines, and relational databases. The knowledge base built on this heterogeneous database enables deep-search question answering within RAG and supports the generation of in-depth research reports. The code currently open-sourced comprises early-stage integrations of exploratory RAG components from our preliminary research; we will continue refining the system design and releasing further code in the future. 
 
 ## 🌟 Highlights
-- **`2025-08-30`** Codes are now release!
-- **`2025-08-30`** Project quick guide, now live [here](https://heta.readthedocs.io/en/latest/)🔗!
-- **`2025-08-27`** Our paper is available on [Arxiv](https://)📄!
+- **`2025-09-05`** Our paper is available on [Arxiv](https://)📄!
+- **`2025-09-03`** Codes are now release!
+- **`2025-09-03`** Project quick guide, now live [here](https://heta.readthedocs.io/en/latest/)🔗!
+
 
 ## ✨ Features
 
@@ -98,11 +99,6 @@ We utilized the following repos during development:
 If you find our paper and codes useful, please kindly cite us via:
 
 ```bibtex
-@article{zhang2025rakg,
-  title={RAKG: Document-level Retrieval Augmented Knowledge Graph Construction},
-  author={Zhang, Hairong and Si, Jiaheng and Yan, Guohang and Qi, Boyuan and Cai, Pinlong and Mao, Song and Wang, Ding and Shi, Botian},
-  journal={arXiv preprint arXiv:2504.09823},
-  year={2025}
-}
+
 
 ```
