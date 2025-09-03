@@ -65,6 +65,7 @@ dependencies = [
     "pyprojroot",
     "colorama",
     "json-repair",
+    "tiktoken",
 
 ]
 
