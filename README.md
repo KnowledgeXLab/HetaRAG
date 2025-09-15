@@ -31,8 +31,7 @@ HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heteroge
 
 - **DeepWriter**: A multimodal report generation module. Generate fact-grounded, query-driven reports, with fine-grained citations, from unstructured documents.
 
-- ![Pending](https://img.shields.io/badge/status-pending%20merge-orange.svg)  
-**Head-ups:** Deep-fusion retrieval across heterogeneous stores is pending merge.
+- **Head-ups**: Deep-fusion retrieval across heterogeneous stores is pending merge.![Pending](https://img.shields.io/badge/status-pending%20merge-orange.svg)  
 
 ## 🚀 Getting Started
 
