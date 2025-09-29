@@ -1,6 +1,6 @@
 # HetaRAG: Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores
 
-[![Custom badge](https://img.shields.io/badge/Paper-Arxiv-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/)
+[![Custom badge](https://img.shields.io/badge/Paper-Arxiv-b31b1b?logo=arxiv&logoColor=white?style=flat-square)](https://arxiv.org/abs/2509.21336)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Read the Docs](https://img.shields.io/readthedocs/heta)](https://hetarag.readthedocs.io/en/latest/)
@@ -11,7 +11,7 @@
 HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heterogeneous data stores—vector indices, knowledge graphs, full-text search engines, and relational databases. The knowledge base built on this heterogeneous database enables deep-search question answering within RAG and supports the generation of in-depth research reports. The code currently open-sourced comprises early-stage integrations of exploratory RAG components from our preliminary research; we will continue refining the system design and releasing further code in the future. 
 
 ## 🌟 Highlights
-- **`2025-09-XX`** Our paper is available on [Arxiv](https://)📄!
+- **`2025-09-29`** Our paper is available on [Arxiv](https://)📄!
 - **`2025-09-03`** Codes are now release!
 - **`2025-09-03`** Project quick guide, now live [here](https://heta.readthedocs.io/en/latest/)🔗!
 
@@ -101,6 +101,13 @@ We utilized the following repos during development:
 If you find our paper and codes useful, please kindly cite us via:
 
 ```bibtex
-
-
+@misc{yan2025hetaraghybriddeepretrievalaugmented,
+      title={HetaRAG: Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores}, 
+      author={Guohang Yan and Yue Zhang and Pinlong Cai and Ding Wang and Song Mao and Hongwei Zhang and Yaoze Zhang and Hairong Zhang and Xinyu Cai and Botian Shi},
+      year={2025},
+      eprint={2509.21336},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2509.21336}, 
+}
 ```
