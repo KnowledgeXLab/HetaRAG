@@ -19,7 +19,7 @@ HetaRAG is a hybrid, deep-retrieval RAG framework that unifies multiple heteroge
 ## ✨ Features
 
 - **Document Parsing**: Supports multiple document parsing backends, including MinerU and Docling, for handling complex layouts and multi-modal content.
-- **Knowledge Graph Integration**: Automatically extracts entities and relations to build a knowledge graph (HiRAG or LearnRAG).
+- **Knowledge Graph Integration**: Automatically extracts entities and relations to build a knowledge graph (HiRAG or LeanRAG).
 
 - **Flexible Database Support**: Integrates with various databases for different needs:
     - **Vector Stores**: Milvus
