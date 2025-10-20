@@ -89,7 +89,7 @@ Docling 解析数据插入向量数据库
 4. 知识图谱构建
 ^^^^^^^^^^^^^^^^
 
-知识图谱构建提供 HiRAG 与 LearnRAG 两种方法。两种方法均由：构建实体关系三元组、生成实体关系对应描述、构建知识图谱三部分组成，其中共用同一个构建实体关系三元组方法。
+知识图谱构建提供 HiRAG 与 LeanRAG 两种方法。两种方法均由：构建实体关系三元组、生成实体关系对应描述、构建知识图谱三部分组成，其中共用同一个构建实体关系三元组方法。
 
 
 从语料中抽取实体关系：
@@ -107,7 +107,7 @@ Docling 解析数据插入向量数据库
     python tests/data_processor/knowledge_graph/test_create_hirag.py
 
     # TRAG 
-    python tests/data_processor/knowledge_graph/test_create_learnrag.py
+    python tests/data_processor/knowledge_graph/test_create_leanrag.py
 
 
 5. 启动服务

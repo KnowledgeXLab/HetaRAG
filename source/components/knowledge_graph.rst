@@ -61,13 +61,13 @@
     working_dir = "src/resources/temp/knowledge_graph/hirag"  
     graph_builder(data_path, working_dir,method="hirag")
 
-    # LearnRAG
+    # LeanRAG
     from src.data_processor.knowledge_graph.graph_builder import graph_builder
 
-    # 实体关系三元组等数据构建learnrag，并存入working_dir
+    # 实体关系三元组等数据构建leanrag，并存入working_dir
     data_path = "src/resources/temp/knowledge_graph/trag_data"
-    working_dir = "src/resources/temp/knowledge_graph/trag"  
-    graph_builder(data_path, working_dir,method="trag")
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"  
+    graph_builder(data_path, working_dir,method="leanrag")
 
 
 查询知识图谱：
@@ -83,12 +83,12 @@
     result = query_graph(query, working_dir, method="hirag")
     print(result)
 
-    # LearnRAG
+    # LeanRAG
     from src.data_processor.knowledge_graph.query_graph import query_graph
     
     query = "Which leadership positions changed at Datalogic in the reporting period?"
-    working_dir = "src/resources/temp/knowledge_graph/learnrag"  
-    result = query_graph(query, working_dir, method="learnrag")
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"  
+    result = query_graph(query, working_dir, method="leanrag")
     print(result)
 
 

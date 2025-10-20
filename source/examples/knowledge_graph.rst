@@ -63,23 +63,23 @@ HiRAG 构建
     working_dir = "src/resources/temp/knowledge_graph/hirag"  
     graph_builder(data_path, working_dir, method="hirag")
 
-LearnRAG 构建
+LeanRAG 构建
 ^^^^^^^^^^^^^
 
 .. code-block:: python
 
     from src.data_processor.knowledge_graph.graph_builder import graph_builder
     
-    # 实体关系三元组数据构建learnrag
+    # 实体关系三元组数据构建leanrag
     data_path = "src/resources/temp/knowledge_graph/graphrag"
-    working_dir = "src/resources/temp/knowledge_graph/learnrag"  
-    graph_builder(data_path, working_dir, method="learnrag")
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"  
+    graph_builder(data_path, working_dir, method="leanrag")
 
 **参数说明：**
 
 - ``data_path``: 三元组数据路径
 - ``working_dir``: 构建好的知识图谱保存路径
-- ``method``: 构建方法，可选 "hirag" 或 "learnrag"
+- ``method``: 构建方法，可选 "hirag" 或 "leanrag"
 
 
 查询知识图谱
@@ -99,7 +99,7 @@ HiRAG 查询
     result = query_graph(query, working_dir, method="hirag")
     print(result)
 
-LearnRAG 查询
+LeanRAG 查询
 ^^^^^^^^^^^^^
 
 .. code-block:: python
@@ -107,8 +107,8 @@ LearnRAG 查询
     from src.data_processor.knowledge_graph.query_graph import query_graph
     
     query = "Which leadership positions changed at Datalogic in the reporting period?"
-    working_dir = "src/resources/temp/knowledge_graph/learnrag"  
-    result = query_graph(query, working_dir, method="learnrag")
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"  
+    result = query_graph(query, working_dir, method="leanrag")
     print(result)
 
 **参数说明：**
