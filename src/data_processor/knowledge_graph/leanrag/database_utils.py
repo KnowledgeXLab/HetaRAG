@@ -453,6 +453,6 @@ def insert_origin_relations(working_dir):
 
 
 if __name__ == "__main__":
-    working_dir = "src/resources/temp/knowledge_graph/learnrag"
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"
 
     insert_origin_relations(working_dir)

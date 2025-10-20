@@ -11,12 +11,12 @@ import tiktoken
 from tqdm import tqdm
 import yaml
 from openai import AsyncOpenAI, OpenAI
-from src.data_processor.knowledge_graph.learnrag._cluster_utils import (
+from src.data_processor.knowledge_graph.leanrag._cluster_utils import (
     Hierarchical_Clustering,
 )
 from src.utils.file_utils import write_jsonl_list
 from src.data_processor.knowledge_graph.tools.llm_processor import InstanceManager
-from src.data_processor.knowledge_graph.learnrag.database_utils import (
+from src.data_processor.knowledge_graph.leanrag.database_utils import (
     build_vector_search,
     create_db_table_mysql,
     insert_data_to_mysql,
@@ -182,7 +182,7 @@ def hierarchical_clustering(global_config):
     insert_data_to_mysql(global_config["working_dir"])
 
 
-def learnrag_graph_builder(data_path, working_dir):
+def leanrag_graph_builder(data_path, working_dir):
     try:
         multiprocessing.set_start_method("spawn", force=True)  # 强制设置
     except RuntimeError:

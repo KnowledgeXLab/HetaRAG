@@ -6,14 +6,14 @@ import os
 
 from src.data_processor.knowledge_graph.tools.llm_processor import InstanceManager
 from src.utils.api_llm_requests import EmbeddingProcessor
-from src.data_processor.knowledge_graph.learnrag.database_utils import (
+from src.data_processor.knowledge_graph.leanrag.database_utils import (
     search_vector_search,
     find_tree_root,
     search_nodes_link,
     search_community,
     get_text_units,
 )
-from src.data_processor.knowledge_graph.learnrag.prompt import GRAPH_FIELD_SEP, PROMPTS
+from src.data_processor.knowledge_graph.leanrag.prompt import GRAPH_FIELD_SEP, PROMPTS
 from itertools import combinations
 from src.utils.logging_utils import setup_logger
 
@@ -200,7 +200,7 @@ def query_graph(global_config, db, query):
     return describe, response
 
 
-def query_LearnRAG(query, working_dir):
+def query_leanRAG(query, working_dir):
     from src.database.db_connection import mysql_connnection
 
     db = mysql_connnection()

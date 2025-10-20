@@ -6,5 +6,5 @@ if __name__ == "__main__":
 
     # 选择合适的实体关系提取方法
     data_path = "src/resources/temp/knowledge_graph/graphrag"  # or "src/resources/temp/knowledge_graph/commonkg"
-    working_dir = "src/resources/temp/knowledge_graph/learnrag"
-    graph_builder(data_path, working_dir, method="learnrag")
+    working_dir = "src/resources/temp/knowledge_graph/leanrag"
+    graph_builder(data_path, working_dir, method="leanrag")

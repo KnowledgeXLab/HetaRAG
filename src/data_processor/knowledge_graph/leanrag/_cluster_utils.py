@@ -16,12 +16,12 @@ from typing import Any, List, Optional
 from sklearn.mixture import GaussianMixture
 from tqdm import tqdm
 from itertools import combinations
-from src.data_processor.knowledge_graph.learnrag._utils import (
+from src.data_processor.knowledge_graph.leanrag._utils import (
     split_string_by_multi_markers,
     clean_str,
     is_float_regex,
 )
-from src.data_processor.knowledge_graph.learnrag.prompt import GRAPH_FIELD_SEP, PROMPTS
+from src.data_processor.knowledge_graph.leanrag.prompt import GRAPH_FIELD_SEP, PROMPTS
 from src.utils.file_utils import write_jsonl_list
 
 # Initialize logging
