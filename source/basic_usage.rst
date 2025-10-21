@@ -106,7 +106,7 @@ Docling 解析数据插入向量数据库
     # HiRAG 
     python tests/data_processor/knowledge_graph/test_create_hirag.py
 
-    # TRAG 
+    # LeanRAG 
     python tests/data_processor/knowledge_graph/test_create_leanrag.py
 
 
